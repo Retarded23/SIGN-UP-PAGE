@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Merriweather", serif;
+}
+.otbox{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient( to top left,rgb(242, 119, 119),rgb(94, 94, 195));
+}
+.inbox{
+    padding:20px 20px;
+    text-align: left;
+    width: 280px;
+    height: 300px;
+    position: relative; 
+    margin: 0 auto;
+    top: 130px;
+    border: 10px,rgb(6, 255, 68);
+    background-color: #ffffffcc;/* glassmorphysim*/
+    border-radius: 10px;
+    box-shadow: 4px 4px rgb(168, 166, 166);
+    z-index: 4;
+}
+.header{
+    text-align: center;
+    color:rgb(56, 48, 48);
+}
+.header p{
+    font-size: 15px;
+    color: rgb(75, 73, 73);
+}
+.sbody {
+    margin: 9px 0px;
+    width:auto;
+}
+.sbody p{
+    margin: 6px 0px;
+    width:auto;
+}
+.sbody p label{
+    margin-top: 8px;
+    font-size: 15px;
+    display: block;
+}
+.sbody p input{
+   width:100%;
+}
+.sbody p input[type="submit"]{ 
+    
+    margin-top: 10px;
+    background-color:rgb(144, 144, 207);
+    border: none;
+    cursor: pointer;
+    color:white; 
+}
+.sbody p input[type="submit"]:hover{
+    background-color:rgb(102, 102, 192);
+}
+footer{
+    margin-top: 15px;
+    color: rgb(55, 54, 54);
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background: linear-gradient(to top right,rgba(156, 152, 152, 0),white);
+}
+.c1{
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+.c2{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
